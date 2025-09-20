@@ -11,4 +11,6 @@ int main() {
 		printf("%c", '\a');
 	printf("%d\n", x);
 	printf("%d\n", y);
+	if (false && (y -= 5))
+		printf("%d", y);
 }
